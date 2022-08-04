@@ -1,0 +1,33 @@
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"name": {
+			"bsonType": "string"
+		},
+		"wxName": {
+			"bsonType": "string"
+		},
+		"img": {
+			"bsonType": "string"
+		},
+	    "ChangeThrough": {
+		  "bsonType": "Number"
+		},
+		"looseChange": {
+		  "bsonType": "Number"
+		},
+		"headPortrait": {
+		  "bsonType": "string"
+		}
+	}
+}

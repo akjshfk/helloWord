@@ -1,6 +1,0 @@
-{
-  "usingComponents": {
-    "van-rate": "/miniprogram_npm/_vant-weapp@0.5.7@vant-weapp/rate/index"
-  },
-  "navigationBarTitleText": "发表评价"
-}

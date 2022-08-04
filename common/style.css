@@ -1,0 +1,152 @@
+.mb20{
+	margin-bottom: 20rpx;
+}
+.hg90{
+	height: 90rpx;
+}
+.hg20{
+	height: 20rpx;
+}
+.mr20{
+	margin-right: 20rpx;
+}
+.pd40{padding: 40rpx;}
+.pd20{padding: 20rpx;}
+
+.bgwhite{background-color: #FFFFFF;}
+.white{color: #FFFFFF;}
+
+.font36{
+	font-size: 36rpx;
+} 
+.font24{
+	font-size: 24rpx;
+}
+.font20{
+	font-size: 20rpx;
+}
+.blod{
+	font-weight: bold;
+}
+.tc{text-align: center;}
+.mb60{margin-bottom: 40rpx;}
+.wd100{width: 100%;}
+
+/* 转换成flex容器 */
+
+  .flex {
+    display: flex;
+  }
+
+  /* 竖直排列 */
+
+  .flexv {
+    flex-direction: column;
+  }
+
+  /* 自动填充 */
+
+  .flex1 {
+    flex: 1;
+  }
+
+  /* 自动换行 */
+
+  .flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* 水平居中 */
+
+  .jus-c {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* 水平两端对齐 */
+
+  .jus-b {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* 水平相等间距 */
+
+  .jus-a {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  /* 主轴终端对齐 */
+
+  .jus-e {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  /* 终点对齐 */
+
+  .ali-e {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  /* 浮动元素 */
+
+  .clearBoth {
+    position: relative;
+  }
+
+  /* 清楚浮动 */
+
+  .clearBoth::after {
+    content: '';
+    clear: both;
+    display: block;
+  }
+
+  /* 竖直居中 */
+
+  .ali-c {
+    display: flex;
+    align-items: center;
+  }
+
+  /* 水平垂直居中 */
+
+  .flexc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .flex_op {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .flex_ar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  /* 文字一行溢出 */
+
+  .oneline {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+  }
+
+  /* 文字两行溢出 */
+
+  .twoline {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+  }
